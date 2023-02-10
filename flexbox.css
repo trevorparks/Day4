@@ -1,0 +1,229 @@
+.content {
+    border: 1px solid black;
+    background-color: #ffa500;
+    color: white;
+  }
+  .container {
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-around;
+  }
+  .center {
+    text-align: center;
+    display: flex;
+  
+  }
+.three {
+    flex-basis: 300px;
+}
+.two {
+    flex-basis: 200px;
+}
+  .twenty-five {
+    flex-basis: 25%;
+  }
+  .grow {
+    flex-grow: 1;
+  }
+  .shrink {
+    flex-shrink: 1;
+  }
+  .fifty {
+    flex-basis: 50%;
+  }
+  
+  .order-1{
+    order: 1;
+  }
+  .order-2{
+    order: 2;
+  } 
+   .order-3{
+    order: 3;
+  }  
+  .order-4{
+    order: 4;
+  }  
+  .order-5{
+    order: 5;
+  }  
+  .order-6{
+    order: 6;
+  }  
+  .order-7{
+    order: 7;
+  } 
+   .order-8{
+    order: 8;
+  }  
+  .order-9{
+    order: 9;
+  }  
+  .order-10{
+    order: 10;
+  }  
+  .order-11{
+    order: 11;
+  }
+  .order-12{
+    order: 12;
+  }  
+  .order-13{
+    order: 13;
+  }
+/*
+  #one {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #two {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #three {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #four {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #five {
+        display: flex;
+        flex-flow: row wrap-reverse;
+        justify-content: center;
+        align-items: center;
+        flex-basis: 25%;
+        flex-shrink: 1;
+        flex-grow: 1;
+        padding: 20px;
+        margin: 10px;
+    
+  }
+  #six {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #seven {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #eight {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+  }
+  #nine {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 300px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #ten {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 50%;
+    flex-shrink: 1;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+   
+  }
+  #eleven {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 20px;
+    margin: 10px;
+  }
+  #twelve {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 200px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+  }
+  #thirteen {
+    display: flex;
+    flex-direction: row-reverse;
+    flex-flow: row wrap-reverse;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    flex-shrink: 1;
+    flex-grow: 0;
+    padding: 20px;
+    margin: 10px;
+    order: 1;
+  }
+*/

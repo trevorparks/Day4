@@ -1,0 +1,89 @@
+
+.container{
+    display:flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+.border-top {
+    box-sizing: border-box;
+border-top: 1px solid black;
+}
+.border-bottom {
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+}
+.border-left {
+    box-sizing: border-box;
+    border-left: 1px solid black;
+}
+.border-right {
+    box-sizing: border-box;
+    border-right: 1px solid black;
+}
+.four-borders {
+    box-sizing: border-box;
+border: 1px solid black;
+}
+.top-right{
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+.top-left{
+    box-sizing: border-box;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+.bottom-right{
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+.bottom-left{
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+.left-right{
+    box-sizing: border-box;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+.top-bottom{
+    box-sizing: border-box;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.yellow{
+    background-color: yellow;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.black{
+    background-color: black;
+}
+.red {
+    background-color: red;
+}
+.green {
+    background-color: green;
+}
+.purple{
+    background-color: purple;
+}
+.teal{
+    background-color: cyan;
+}
+.box {
+    display: flex;
+    min-height: 50px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 10%;
+  box-shadow: 0 0 10px gray;
+  box-sizing: border-box;
+}

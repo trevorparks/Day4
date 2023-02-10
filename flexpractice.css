@@ -1,0 +1,49 @@
+.header-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    min-height: 50px;
+}
+.main-container{
+   
+    display:flex;
+    flex-flow: row-wrap;
+}
+.blue-container {
+    display:flex;
+    color:white;
+    flex-flow: row wrap;
+    flex-basis: calc(100% / 3 * 2);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.blue-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    margin: 2px;
+    min-height: 200px;
+    flex: 0 1 calc(100% / 3 - 4px);
+}
+
+.red-container {
+ 
+    color:white;
+    display:flex;
+    flex-flow: column wrap;
+    flex-basis: calc(100% / 3);
+    padding: 10px;
+ 
+}
+.red-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: 2px;
+    min-height: 200px;
+}
